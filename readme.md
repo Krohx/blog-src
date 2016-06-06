@@ -1,4 +1,4 @@
-#####Pelican source files for setting up and generating static content for my Github-hosted static blog:
+#####Pelican source files for setting up and generating static content for out Github-hosted static blog:
 
-[acetakwas.log();](http://takwas.github.io/)
+[Blog | Krohx](http://krohx.github.io/blog)
 

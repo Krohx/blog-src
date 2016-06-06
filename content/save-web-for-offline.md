@@ -4,6 +4,7 @@ Modified: 2016-01-29 22:00
 Tags: wget, httrack, download, offline, save, website, internet, planet
 Slug: save-web-for-offline
 Summary: You can save the entire contents of a website or blog for offline referencing.
+Authors: Segun Oyebode
 
 
 

@@ -6,12 +6,12 @@ from hashlib import md5
 
 
 
-SITENAME = u'acetakwas.log();'
-DESCRIPTION = u"while True: print    <strong>\\</strong>"
+SITENAME = u'Blog | Krohx'
+DESCRIPTION = u"Documentation is the soul of technology."
 SITE_TAGLINE = DESCRIPTION
-SITE_SOURCE = u'https://github.com/takwas/blog-src'
+SITE_SOURCE = u'https://github.com/krohx/blog-src'
 
-AUTHOR = u'Tosin Damilare James Animashaun'
+AUTHOR = u'Krohx'
 
 # custom config variable for URLS
 URLS = {
@@ -25,32 +25,21 @@ def get_link(name):
 
 BIO = \
 	u'''
-		<p>Full name: <strong>{name}</strong>.</p>
-		
-		<p>In here is where I document stuff as I go. Among a host of other
-		personas, I am a Christian, programmer, and budding entrepreneur. I am a part of {krohx}, and I am currently doing a Software Engineering program at {niit}.
+		<p>Krohx is a software company. We are committed to building digital solutions that help grow businesses and meet individual needs.
 		</p>
-
-		<p>I enjoy reading. I appreciate writing; and I try to be good at this myself. Some other interests include singing, technology, and psychology.
-		</p>
-
-		<p>In my spare time, I listen to podcasts about different topics ranging from startups to technology, innovations, psychology and more.
-		<br/>
-		<br/><b>Email: </b> acetakwas [at] gmail [dot] com
-		</p>
-	'''.format(name=AUTHOR, krohx=get_link('krohx'), niit=get_link('niit'))
+	'''.format()
 
 
 
-AUTHOR_SHORTBIO = u'Christian | Programmer | Learner'
-AUTHOR_EMAIL = u'acetakwas@gmail.com'
+AUTHOR_SHORTBIO = u'Software Company'
+AUTHOR_EMAIL = u'krohxinc@gmail.com'
 AUTHOR_EMAIL_HASH = md5(AUTHOR_EMAIL).hexdigest()
-TWITTER_USERNAME = u'acetakwas'
-GITHUB_USERNAME = u'takwas'
+TWITTER_USERNAME = u''
+GITHUB_USERNAME = u'krohx'
 GITHUB_BADGE = True
 
 # custom config variable for IRC
-IRC_NICK = u'acetakwas'
+IRC_NICK = u''
 
 
 # During development, we want urls to be relative
@@ -59,7 +48,7 @@ RELATIVE_URLS = True
 DEFAULT_LANG = u'en'
 
 DEFAULT_CATEGORY = 'Uncategorized'
-#DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = True
 
 TIMEZONE = 'Africa/Lagos'
 
@@ -67,7 +56,7 @@ PATH = 'content/'
 #ARTICLE_DIR = PATH
 
 
-SITEURL = 'http://takwas.github.io'
+SITEURL = 'http://krohx.github.io/blog'
 # FEED_DOMAIN = SITEURL
 # FEED_ATOM = 'feeds/main.atom.xml'
 # FEED_RSS = 'feeds/main.rss.xml'
@@ -99,7 +88,7 @@ FILENAME_METADATA='(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)'
 
 
 
-SOCIAL_WIDGET_NAME = "I am on"
+SOCIAL_WIDGET_NAME = "Find  us on"
 LINKS_WIDGET_NAME = "Bookmarks"
 
 GRAB_ICONS = True
@@ -109,16 +98,13 @@ GRAB_ICONS = True
 
 # Social widget
 SOCIAL = (
-	('quora',
-		'http://quora.com/Tosin-Damilare-James-Animashaun'),
 	('github',
-		'http://github.com/takwas'),
+		'http://github.com/krohx'),
 	('linkedin',
-		'http://ng.linkedin.com/in/acetakwas'),
+		'http://ng.linkedin.com/in/krohx'),
 	('bitbucket',
-		'http://bitbucket.org/takwas'),
-	('goodreads',
-		'http://goodreads.com/user/show/41177369-tosin-damilare-james-animashaun'),
+		'http://bitbucket.org/krohx'),
+	('Facebook', 'http://facebook.com/krohx')
 	)
           
           #('Facebook', 'http://facebook.com/takwas')
@@ -129,7 +115,7 @@ SOCIAL = (
 
 
 
-DEFAULT_PAGINATION = 200
+DEFAULT_PAGINATION = 10
 
 
 
@@ -142,12 +128,17 @@ DEFAULT_PAGINATION = 200
 
 
 # Settings for current theme
-THEME = 'plumage_takwas'
+#THEME = '/home/acetakwas/dev/blog/pelican_themes/aboutwilson'
+THEME = '/home/acetakwas/dev/blog/pelican_themes/gum'
+#THEME = '/home/acetakwas/dev/blog/pelican_themes/tuxlite_zf'
+#THEME = '/home/acetakwas/dev/blog/pelican_themes/new-bootstrap2'
+#THEME = '/home/acetakwas/dev/blog/pelican_themes/tuxlite_tbs'
+#THEME = '/home/acetakwas/dev/blog/pelican_themes/pelican-bootstrap3'
 #MD_EXTENSIONS = ['codehilite(css_class=codehilite code)']
 
 
 # Load thumbnail locally for development
-SITE_THUMBNAIL = '/theme/img/avatar_acetakwas.jpg'
+SITE_THUMBNAIL = '/theme/img/avatar_krohx.png'
 SITE_THUMBNAIL_TEXT = \
 	'''
 		A pen in hand,
@@ -157,10 +148,8 @@ SITE_THUMBNAIL_TEXT = \
 
 MENUITEMS = (
 	('Home', '/'),
-	#(''),
-	#('Being Christian', '/'),
 	('About', '#about'),
-	('Life Log', '/category/life-log.html'), )
+)
 
 SITESUBTITLE = SITE_TAGLINE
 

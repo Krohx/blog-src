@@ -12,9 +12,9 @@ from pelicanconf import *
 
 
 
-SITEURL = 'http://takwas.github.io'
+SITEURL = 'http://krohx.github.io'
 SITE_FULL_URL = SITEURL
-SITEROOT = '/'
+SITEROOT = '/blog'
 # During production, we do not want urls to be relative,
 # they should instead be relative to <SITEURL> above
 RELATIVE_URLS = False
@@ -34,7 +34,7 @@ TAG_FEED_RSS = 'feeds/%s.rss.xml'
 
 
 # Support for Disqus comments
-DISQUS_SITENAME = 'acetakwas-log'
+#DISQUS_SITENAME = 'acetakwas-log'
 
 
 # DO NOT DELETE the "output" directory; it is git version-controlled
